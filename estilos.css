@@ -1,0 +1,347 @@
+/*bas de los estilos*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: rgb(0, 0, 0);
+    background: lightsalmon;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Grilla*/
+
+.section{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.col{
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child{
+    margin-left: 0;
+}
+
+.span_3_of_3{
+    width: 100%;
+}
+
+.span_2_of_3{
+    width: 66.1%;
+}
+
+.span_1_of_3{
+    width: 32.2%;
+}
+
+/*Encabezado y Navegacion*/
+
+
+header{
+    max-width: 100%;
+    background:rgb(243, 223, 192);
+    padding: 20px;
+}
+
+nav{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+main {
+    height: 1500px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    transition: max-height 0.5s;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+.nav-item:hover{
+    background: chocolate;
+    cursor: pointer;
+}
+
+.menu-bar{
+    width: 100%;
+    box-sizing: border-box;
+    background: cornflowerblue;
+    text-align: left;
+    padding: 15px 20px;
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-icon{
+    float: right;
+    clear: both;
+    margin-top:-5px;
+    font-size: 1.4em;
+}
+
+/*Blog Publicaciones*/
+
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-post{
+    background: white;
+    margin: 0 auto 2em auto;
+    padding: 35px 30px;
+}
+
+.side-post{
+    background: white;
+    margin: 0 auto 1.5em auto;
+    width: 15em;
+    padding: 20px;
+}
+
+.blog-content{
+    font-size: 1em;
+    border-left: 5px solid cornsilk;
+    padding-left: 15px;
+}
+
+.side-content{
+    font-size: .9em;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.blog-title{
+    font-weight: 500px;
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+
+.date{
+    font-size: 1em;
+    font-weight: 400;
+    color: crimson;
+    margin-top: -10px;
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+.post-link{
+    color: rgb(145, 59, 59);
+    font-style: italic;
+    transition: all 0.4s;
+}
+
+ .post-link:hover{
+     text-decoration: underline;
+     cursor: pointer;
+ }
+
+/*boton*/
+
+.button{
+    display: block;
+    padding: 15px 20px;
+    margin-top: .8em;
+    background: darkblue;
+    text-align: center;
+    color: darkorchid;
+    font-size: 1.4em;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+}
+
+.button:hover{
+    background: darkseagreen;
+}
+
+/*footer*/
+
+footer{
+    widht:1903px;
+    height:262px;
+    background-image: linear-gradient(to bottom,#FF8F00 ,#FEC476);)
+    font-family:"Merienda";
+    text-color:white;
+    padding:2px;
+    }
+  section#datos{
+    width:634px;
+    height:200px;
+    float:left;
+    background-image: linear-gradient(to bottom,#FF2222 ,#FF8F00);
+    color:white;
+    font-family:"Merienda";
+    text-align:center;
+    }
+  section#map{
+    width:630px;
+    height:200px;
+    float:right;
+    background-image: linear-gradient(to bottom,#FF2222 ,#FF8F00);
+    margin-bottom:2px;
+    text-align:center;
+    font-family:"Merienda";
+    font-size:13px;
+    }
+  section#copy{
+    width:1899px;
+    height:60px;
+    float:left;
+    background-color:#FF8F00;
+    margin-bottom:2px;
+    text-align:center;
+    }
+  section#contactanos{
+    width:635px;
+    height:200px;
+    Float:left;
+    background-image: linear-gradient(to bottom,#FF2222 ,#FF8F00);
+    font-family:"Merienda";
+    color:white;
+    text-align:center;
+    }
+  h2, h3 {
+    text-align:center;
+    font-family:"Merienda";
+    font-size:20px;
+    color:black;
+    }
+  p2, p3 {
+    text-align:center;
+    font-family:"Merienda";
+    font-size:15px;
+    color:white;
+    }
+
+@media screen and (max-width: 56.25em){
+   .col{
+       margin: 1% 0 1% 0%;
+   }
+   .span_3_of_3
+   .span_2_of_3
+   .span_1_of_3{
+       width: 100%;
+   }
+    
+   .side-post{
+       width: 42%;
+       float: left;
+       margin: -2% 0 1% 1.6%;
+   }
+}
+
+
+
+/**/
+
+@media screen and (max-width: 42.813em) {
+    .side-post{
+        width: auto;
+        padding: 15px;
+        margin: -2% auto 8% auto;
+    }
+
+    .blog-title{
+        font-size: 1.95em;
+    }
+
+    .date{
+        font-size: .9em;
+    }
+}
+
+/**/
+
+@media screen and (max-width:30em){
+    nav ul{
+        max-height: 0;
+    }
+
+    .reveal{
+        max-height: 19em;
+    }
+    
+    nav ul .nav-item{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .menu-bar{
+        display: block;
+    }
+}
+
+/**/
+
+@media screen and (max-width: 23.75em) {
+    .blog-content,
+    .post-link{
+        font-size: .9em;
+    }
+
+     .side-content{
+         font-size: .8em;
+     }
+
+     .button{
+         padding: 10px 15px;
+     }
+
+     .nav-item{
+         font-size: 1.2em;
+     }
+}
+ 
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+video{
+    width: 100%;
+}
